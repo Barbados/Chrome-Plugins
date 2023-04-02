@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/59fa1da2-8204-4b6b-b095-4d486b338661/resourceGroups/RG1/providers/Microsoft.Web/sites/words-viewer",
+    "appService.deploySubpath": ""
+}
