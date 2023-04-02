@@ -1,0 +1,16 @@
+/Users/vit-mac/Documents/Projects/capturer-service/capturer-service/bin/Debug/netcoreapp2.1/appsettings.Development.json
+/Users/vit-mac/Documents/Projects/capturer-service/capturer-service/bin/Debug/netcoreapp2.1/appsettings.json
+/Users/vit-mac/Documents/Projects/capturer-service/capturer-service/bin/Debug/netcoreapp2.1/Properties/launchSettings.json
+/Users/vit-mac/Documents/Projects/capturer-service/capturer-service/bin/Debug/netcoreapp2.1/capturer-service.deps.json
+/Users/vit-mac/Documents/Projects/capturer-service/capturer-service/bin/Debug/netcoreapp2.1/capturer-service.runtimeconfig.json
+/Users/vit-mac/Documents/Projects/capturer-service/capturer-service/bin/Debug/netcoreapp2.1/capturer-service.runtimeconfig.dev.json
+/Users/vit-mac/Documents/Projects/capturer-service/capturer-service/bin/Debug/netcoreapp2.1/capturer-service.dll
+/Users/vit-mac/Documents/Projects/capturer-service/capturer-service/bin/Debug/netcoreapp2.1/capturer-service.pdb
+/Users/vit-mac/Documents/Projects/capturer-service/capturer-service/obj/Debug/netcoreapp2.1/capturer-service.csprojAssemblyReference.cache
+/Users/vit-mac/Documents/Projects/capturer-service/capturer-service/obj/Debug/netcoreapp2.1/capturer-service.RazorAssemblyInfo.cache
+/Users/vit-mac/Documents/Projects/capturer-service/capturer-service/obj/Debug/netcoreapp2.1/capturer-service.RazorAssemblyInfo.cs
+/Users/vit-mac/Documents/Projects/capturer-service/capturer-service/obj/Debug/netcoreapp2.1/capturer-service.AssemblyInfoInputs.cache
+/Users/vit-mac/Documents/Projects/capturer-service/capturer-service/obj/Debug/netcoreapp2.1/capturer-service.AssemblyInfo.cs
+/Users/vit-mac/Documents/Projects/capturer-service/capturer-service/obj/Debug/netcoreapp2.1/capturer-service.RazorTargetAssemblyInfo.cache
+/Users/vit-mac/Documents/Projects/capturer-service/capturer-service/obj/Debug/netcoreapp2.1/capturer-service.dll
+/Users/vit-mac/Documents/Projects/capturer-service/capturer-service/obj/Debug/netcoreapp2.1/capturer-service.pdb

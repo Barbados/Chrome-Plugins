@@ -1,0 +1,67 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AzureFunctionsVersion>v3</AzureFunctionsVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="appsettings.Development.json" />
+    <None Remove="appsettings.json" />
+    <None Remove="obj\Release\netcoreapp3.1\PubTmp\Out\CreateWord\function.json" />
+    <None Remove="obj\Release\netcoreapp3.1\PubTmp\Out\GetWords\function.json" />
+    <None Remove="obj\Release\netcoreapp3.1\PubTmp\Out\host.json" />
+    <None Remove="obj\Release\netcoreapp3.1\PubTmp\Out\bin\Microsoft.Azure.Cosmos.Client.dll" />
+    <None Remove="obj\Release\netcoreapp3.1\PubTmp\Out\bin\DnsClient.dll" />
+    <None Remove="obj\Release\netcoreapp3.1\PubTmp\Out\bin\Microsoft.Azure.Functions.Extensions.dll" />
+    <None Remove="obj\Release\netcoreapp3.1\PubTmp\Out\bin\Microsoft.Azure.Amqp.dll" />
+    <None Remove="obj\Release\netcoreapp3.1\PubTmp\Out\bin\Microsoft.Azure.Services.AppAuthentication.dll" />
+    <None Remove="obj\Release\netcoreapp3.1\PubTmp\Out\bin\Microsoft.Azure.Cosmos.Serialization.HybridRow.dll" />
+    <None Remove="obj\Release\netcoreapp3.1\PubTmp\Out\bin\Microsoft.Azure.SignalR.Protocols.dll" />
+    <None Remove="obj\Release\netcoreapp3.1\PubTmp\Out\bin\Microsoft.Azure.Cosmos.Core.dll" />
+    <None Remove="obj\Release\netcoreapp3.1\PubTmp\Out\bin\Microsoft.Azure.Cosmos.Direct.dll" />
+    <None Remove="obj\Release\netcoreapp3.1\PubTmp\Out\bin\Microsoft.Azure.ServiceBus.dll" />
+    <None Remove="obj\Release\netcoreapp3.1\PubTmp\Out\bin\Microsoft.Azure.WebJobs.ServiceBus.dll" />
+    <None Remove="obj\Release\netcoreapp3.1\PubTmp\Out\bin\Microsoft.AspNetCore.Http.Connections.Client.dll" />
+    <None Remove="obj\Release\netcoreapp3.1\PubTmp\Out\bin\Microsoft.Azure.SignalR.Common.dll" />
+    <None Remove="obj\Release\netcoreapp3.1\PubTmp\Out\bin\Microsoft.Azure.WebJobs.Extensions.SignalRService.dll" />
+    <None Remove="obj\Release\netcoreapp3.1\PubTmp\Out\bin\Microsoft.Azure.SignalR.Management.dll" />
+    <None Remove="obj\Release\netcoreapp3.1\PubTmp\Out\bin\Microsoft.Azure.SignalR.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="appsettings.Development.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="appsettings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Azure.Functions.Extensions" Version="1.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="7.0.0" />
+    <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="4.1.3" />
+    <PackageReference Include="Microsoft.Azure.ServiceBus" Version="5.2.0" />
+    <PackageReference Include="Microsoft.Azure.WebJobs.Extensions.ServiceBus" Version="5.8.1" />
+    <PackageReference Include="Microsoft.AspNetCore.SignalR.Core" Version="1.1.0" />
+    <PackageReference Include="Microsoft.Azure.WebJobs.Extensions.SignalRService" Version="1.9.0" />
+    <PackageReference Include="Microsoft.Azure.WebJobs.Extensions.CosmosDB" Version="4.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\capturer-service\capturer-service.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="host.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="local.settings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="CreateWordSb.cs" />
+  </ItemGroup>
+</Project>

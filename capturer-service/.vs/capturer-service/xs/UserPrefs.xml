@@ -1,0 +1,50 @@
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{0FED1171-2844-4802-B025-0C75BBB0AF9D}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/vit-mac/Documents/Projects/Chrome Plugins/capturer-service/WordsFunction/WordsFunction.cs" relfile="WordsFunction/WordsFunction.cs" line="73" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.capturer-service PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="capturer-service/Services/WordsService.cs">
+    <Files>
+      <File FileName="capturer-service/Controllers/WordsController.cs" />
+      <File FileName="capturer-service/Services/WordsService.cs" Line="8" Column="10" />
+      <File FileName="capturer-service/Startup.cs" Line="47" Column="30" />
+      <File FileName="WordsFunction/Startup.cs" />
+      <File FileName="WordsFunction/host.json" />
+      <File FileName="WordsFunction/appsettings.Development.json" />
+      <File FileName="WordsFunction/WordsFunction.cs" />
+      <File FileName="capturer-service/Data/SettingsConfig.cs" />
+      <File FileName="capturer-service/Services/IWordsService.cs" />
+      <File FileName="capturer-service/Data/ISettingsConfig.cs" />
+      <File FileName="WordsFunction/appsettings.json" />
+      <File FileName="WordsFunction/local.settings.json" />
+      <File FileName="capturer-service/Helpers/HtmlParser.cs" />
+      <File FileName="capturer-service/Model/WordElement.cs" />
+      <File FileName="capturer-service/Helpers/HttpHelper.cs" />
+      <File FileName="capturer-service/Program.cs" />
+      <File FileName="capturer-service/appsettings.json" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="capturer-service" expanded="True">
+            <Node name="capturer-service" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="Controllers" expanded="True" />
+              <Node name="Model" expanded="True" />
+              <Node name="Services" expanded="True">
+                <Node name="WordsService.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

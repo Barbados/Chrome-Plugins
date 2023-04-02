@@ -1,0 +1,77 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/vit-mac/Documents/Projects/Chrome Plugins/capturer-service/capturer-service/capturer-service.csproj": {}
+  },
+  "projects": {
+    "/Users/vit-mac/Documents/Projects/Chrome Plugins/capturer-service/capturer-service/capturer-service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/vit-mac/Documents/Projects/Chrome Plugins/capturer-service/capturer-service/capturer-service.csproj",
+        "projectName": "capturer-service",
+        "projectPath": "/Users/vit-mac/Documents/Projects/Chrome Plugins/capturer-service/capturer-service/capturer-service.csproj",
+        "packagesPath": "/Users/vit-mac/.nuget/packages/",
+        "outputPath": "/Users/vit-mac/Documents/Projects/Chrome Plugins/capturer-service/capturer-service/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/vit-mac/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "targetAlias": "netcoreapp3.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "targetAlias": "netcoreapp3.0",
+          "dependencies": {
+            "Microsoft.Azure.Cosmos": {
+              "target": "Package",
+              "version": "[3.32.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.10.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

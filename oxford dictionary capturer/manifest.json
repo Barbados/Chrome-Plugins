@@ -1,0 +1,13 @@
+{
+    "name": "English Words Capturer",
+    "version": "2.0",
+    "permissions": ["activeTab", "declarativeContent", "storage"],
+    "content_scripts": [
+        {
+        "matches": ["http://www.oxfordlearnersdictionaries.com/*", "https://www.oxfordlearnersdictionaries.com/*"],
+         "js": ["content.js"],
+         "run_at": "document_end"
+        }
+       ],
+    "manifest_version": 3
+}
